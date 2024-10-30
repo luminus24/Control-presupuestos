@@ -29,13 +29,18 @@ else:
 # Mostrar el numero de elementos de una lista
 
 cantidad = len(ciudades)
-print("La lista de ciudades tiene ", cantidad, " de elementos")
+print("La lista de ciudades tiene ", cantidad, " elementos")
 
 #Añadir un elemento a una lista
 
 ciudades.append("Caraz")
 
-#Añadir un elemento en un indice
+#Añadir un elemento en un indice determinado
 
 ciudades.insert(2, "Carhuaz")
+
+#Eliminar un elemento de la lista
+
+ciudades.remove("Huaraz")
+
 
